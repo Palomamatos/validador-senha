@@ -23,6 +23,7 @@ A senha deve atender aos seguintes critérios:
 - Conter pelo menos um caractere especial (ex: !@#$%^&*()-+)
 - Não conter caracteres repetidos.
 
+## Como rodar a Aplicação
 
 1. Clonar o Repositório
 git clone URL/do/repositorio

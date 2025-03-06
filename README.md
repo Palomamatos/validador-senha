@@ -25,12 +25,12 @@ A senha deve atender aos seguintes critérios:
 
 ## Como rodar a Aplicação
 
-1. Clonar o Repositório
+**1. Clonar o Repositório**
 ''' bash
 git clone URL/do/repositorio
-cd nome-do-repositorio
+cd nome-do-repositorio '''
 
-3. Configurar Dependências
+2. Configurar Dependências
 Se estiver usando Maven, rode:
 
 mvn clean install

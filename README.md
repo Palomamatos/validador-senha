@@ -92,6 +92,3 @@ mvn test
 Fique à vontade para abrir issues e enviar pull requests com melhorias ou correções!
 
 Desenvolvido com ❤️ por [Paloma_Matos]
-
-
-E.md) e colar o conteúdo acima.

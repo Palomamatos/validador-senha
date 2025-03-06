@@ -26,9 +26,11 @@ A senha deve atender aos seguintes critérios:
 ## Como rodar a Aplicação
 
 1. Clonar o Repositório
+''' bash
 git clone URL/do/repositorio
 cd nome-do-repositorio
-2. Configurar Dependências
+
+3. Configurar Dependências
 Se estiver usando Maven, rode:
 
 mvn clean install
@@ -48,11 +50,12 @@ Com o seguinte corpo JSON:
 {
     "senha": "MinhaSenha123!"
 }
-Se a senha for válida, a API retorna:
 
+Se a senha for válida, a API retorna:
 {
     "mensagem": "Senha válida."
 }
+
 Caso contrário, retorna mensagens de erro indicando o motivo da invalidação.
 
 Logs

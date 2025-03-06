@@ -22,3 +22,48 @@ A senha deve atender aos seguintes critérios:
 - Conter pelo menos um número
 - Conter pelo menos um caractere especial (ex: !@#$%^&*()-+)
 - Não conter caracteres repetidos.
+
+
+1. Clonar o Repositório
+git clone URL/do/repositorio
+cd nome-do-repositorio
+2. Configurar Dependências
+Se estiver usando Maven, rode:
+
+mvn clean install
+3. Executar a Aplicação
+Se estiver usando Maven:
+
+mvn spring-boot:run
+Ou execute diretamente o JAR gerado:
+
+java -jar target/nome-do-seu-projeto.jar
+4. Testar a API
+Use um cliente HTTP como Postman, Insomnia ou cURL para enviar uma requisição POST para:
+
+POST http://localhost:8080/validar-senha
+Com o seguinte corpo JSON:
+
+{
+    "senha": "MinhaSenha123!"
+}
+Se a senha for válida, a API retorna:
+
+{
+    "mensagem": "Senha válida."
+}
+Caso contrário, retorna mensagens de erro indicando o motivo da invalidação.
+
+Logs
+A aplicação utiliza Logback para registrar logs no console. Os logs ajudam a depurar e entender o funcionamento da API.
+
+Testes
+Para rodar os testes unitários:
+
+Se estiver usando Maven:
+
+mvn test
+Contribuição
+Fique à vontade para abrir issues e enviar pull requests com melhorias ou correções!
+
+Desenvolvido com ❤️ por [Paloma_Matos]
